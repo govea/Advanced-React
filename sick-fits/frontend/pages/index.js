@@ -2,9 +2,11 @@ import Page from '../components/Page';
 
 export default function IndexPage() {
   return (
-    <Page cool="heck yeah">
+    // using fragment to return multiple adjacent element
+    // they're ghost tags 👻
+    <>
       <p>Hello!</p>
       <code>var</code>
-    </Page>
+    </>
   );
 }
