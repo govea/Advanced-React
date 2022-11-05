@@ -1,10 +1,4 @@
 {
-  "workbench.colorCustomizations": {
-    "titleBar.activeForeground": "#fff",
-    "titleBar.inactiveForeground": "#ffffffcc",
-    "titleBar.activeBackground": "#FF2C70",
-    "titleBar.inactiveBackground": "#FF2C70CC"
-  },
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": false
@@ -16,5 +10,24 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "prettier.disableLanguages": ["javascript", "javascriptreact"]
+  "prettier.disableLanguages": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "workbench.colorCustomizations": {
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#fb8794",
+    "statusBar.background": "#fa5568",
+    "statusBar.border": "#fa5568",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#f9233c",
+    "statusBarItem.remoteBackground": "#fa5568",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#fa5568",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.border": "#fa5568",
+    "titleBar.inactiveBackground": "#fa556899",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#fa5568"
 }
