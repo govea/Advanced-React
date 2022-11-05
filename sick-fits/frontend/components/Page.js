@@ -9,8 +9,9 @@ export default function Page({ children, cool }) {
     </div>
   );
 }
-
 Page.propTypes = {
   cool: PropTypes.string,
-  children: PropTypes.arrayOf(PropTypes.node),
+  // PropTypes.any to fix: Invalid prop 'children' of type 'object' when supplied to Page, expected an array
+  // From 'sell' page we passed a single object (h2) but Page expected an array, not a single element
+  children: PropTypes.any,
 };
